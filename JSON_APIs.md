@@ -41,3 +41,14 @@ Unique identifier of an item. Subsequent messages of given type shall have diffe
 * battlesInProgress - notification that user participates in battle(s)
 * \*ShoutboxMessage - information about last unread message on specific chat room
 * userLoginMessage - notification that specific user (for example alliance member, friend) has logged in. 
+
+
+## /state/dismiss
+
+Required parameters:
+
+* type - type of item to dismiss
+* id - the particular item
+
+Dismissed item will never be returned in state again. Different (or changed) items of the same type can be returned after dismissal of previous item.
+
