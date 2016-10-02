@@ -36,7 +36,7 @@ Unique identifier of an item. Subsequent messages of given type shall have diffe
 ### Types
 
 * globalMessage - a temporary, important message broadcasted to all users
-* unreadMessages - current number of unread messages, with separate entry for amount and details about the newest unread message
+* unreadMessages - current number of unread messages, with separate entry for amount and details about the newest unread message. Returned only if the most recent unread message is newer than previously reported ones.
 * logoutWarning - user will be forcibly logged out on given time
 * battlesInProgress - notification that user participates in battle(s)
 * ShoutboxMessage - information about last unread message on specific chat room
