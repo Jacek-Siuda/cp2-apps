@@ -16,6 +16,9 @@ Object contains array of items like this one:
     	"url": "/beta/messages/messages.htm"
     }
 
+### Id
+
+Unique identifier of an item. Subsequent messages of given type shall have different ids to distinguish between events they describe.
 
 ### Types
 
